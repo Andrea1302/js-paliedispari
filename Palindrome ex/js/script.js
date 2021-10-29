@@ -25,7 +25,6 @@ let parola = prompt("Inserisci una parola");
     
 
         if ( parolaInserita === parolaRicomposta ) {
-            // parolaPalindroma = true;
             parolaPalindroma = "la parola inserita è palindroma";
         } else{
             parolaPalindroma = "la parola inserita non è palindroma"
