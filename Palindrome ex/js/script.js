@@ -6,7 +6,8 @@ Dare l’output relativo. */
 
 
 // 1.Chiedere all utente di inserire una parola
-
+let parola = prompt("Inserisci una parola");
+// console.log(parola);
 
 // 2.capire se la parola è palindroma oppure no 
 
