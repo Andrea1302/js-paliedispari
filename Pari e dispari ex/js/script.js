@@ -23,8 +23,17 @@ const scelta = prompt("Inserisci la tua scelta scrivendo 'pari' o 'dispari' ");
 console.log("la tua scelta è :", scelta);
 
 // 2.
-const numUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
-console.log("Il numero inserito da te è:",numUtente);
+let numUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
+
+// Condizione per far inserire all utente un numero da 1 a 5 
+while ( numUtente < 1 || numUtente > 5 ){  
+       numUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
+       console.log(numUtente);
+}
+console.log("Il numero da te scelto è :", numUtente);
+
+
+
 
 
 
