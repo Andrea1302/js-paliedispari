@@ -21,7 +21,7 @@ let parola = prompt("Inserisci una parola");
     
 
         // 3. Dare l output relativo 
-        // 3.1 se la parola scomposta inversa è uguale alla parola scomposta iniziale, allora la parola inserita è palinroma
+        // 3.1 se la parola  inversa è uguale alla parola  iniziale, allora la parola inserita è palinroma
     
 
         if ( parolaInserita === parolaRicomposta ) {
